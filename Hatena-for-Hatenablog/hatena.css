@@ -1,0 +1,345 @@
+@charset "utf-8";
+/**
+ * Hatena for はてなブログ
+ * Author: hikaen2
+ *
+ * はてなブログの「boilerplate」テーマのコードを含んでいます。
+ * https://github.com/hatena/Hatena-Blog-Themes/blob/master/boilerplate/boilerplate.less
+ * Copyright (c) 2013 Hatena Co., Ltd
+ * Licensed under the MIT license.
+ */
+.clearfix {
+  display: block;
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+html,
+body {
+  color: black;
+  background-color: #ffffff;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
+a.keyword {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #d0d0d0;
+}
+div#globalheader-container {
+  background-color: #5e7cb4;
+  color: #ffffff;
+}
+div#container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div#container div#container-inner header#blog-title div#blog-title-inner h1#title {
+  text-align: left;
+  font-size: 16pt;
+  font-weight: bold;
+  border-bottom: 1px dotted #adb2ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px 4px 4px 4px;
+}
+div#container div#container-inner div#content {
+  display: block;
+  *zoom: 1;
+}
+div#container div#container-inner div#content:after {
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+div#container div#container-inner div#content div#content-inner div#wrapper {
+  float: right;
+  width: 100%;
+  margin-left: -150px;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main {
+  margin-left: 165px;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry {
+  margin-bottom: 100px;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header {
+  border-top: #5279e7 1px solid;
+  border-left: #5279e7 1px solid;
+  border-right: #5279e7 1px solid;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header div.date {
+  font-weight: bold;
+  background-color: #5279e7;
+  padding: 3px 0px 2px 10px;
+  width: auto;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header div.date a time {
+  color: #ffffff;
+  font-style: normal;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header h1.entry-title {
+  border-left: 9px solid #5279E7;
+  padding-left: 0.5em;
+  margin-bottom: 0;
+  font-size: 120%;
+  margin-left: 10px;
+  margin-top: 2%;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header h1.entry-title a {
+  color: #333;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header div.categories.no-categories {
+  padding: 0;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header div.categories {
+  font-size: 90%;
+  text-align: right;
+  margin-right: 10px;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner header.entry-header div.categories a {
+  text-decoration: none;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner div.entry-content {
+  border-left: #5279e7 1px solid;
+  border-right: #5279e7 1px solid;
+  border-bottom: #5279e7 1px solid;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner footer.entry-footer {
+  font-size: 90%;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner footer.entry-footer div.comment-box ul.comment {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner footer.entry-footer div.comment-box ul.comment li p.comment-metadata time {
+  color: #999;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry div.entry-inner footer.entry-footer div.comment-box a.leave-comment-title {
+  text-decoration: underline;
+}
+div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner div.pager {
+  font-size: 90%;
+  margin: 1% 5% 0 0;
+  padding: 1% 0 0 0;
+  text-align: left;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 {
+  float: right;
+  width: 150px;
+  font-size: 80%;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile .profile-icon {
+  display: block;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile .id {
+  display: block;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile .profile-description p {
+  margin-top: 0;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module div.hatena-module-title {
+  margin: 1em 0 0.3em 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+  border-color: #adb2ff;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module div.hatena-module-body ul.hatena-urllist {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+/* entry-content の中の書式 */
+div.entry-content {
+  font-size: 90%;
+  line-height: 1.5;
+}
+div.entry-content p {
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+}
+div.entry-content img {
+  max-width: 100%;
+}
+div.entry-content h1,
+div.entry-content h2,
+div.entry-content h3,
+div.entry-content h4,
+div.entry-content h5,
+div.entry-content h6 {
+  margin: 1.3em 0 0.8em 0;
+  line-height: 1.5;
+}
+div.entry-content h1 {
+  text-align: left;
+  font-size: 16pt;
+  font-weight: bold;
+  border-bottom: 1px dotted #adb2ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 4px 4px 4px 4px;
+}
+div.entry-content h2 {
+  font-size: 100%;
+  background-color: #5279e7;
+  padding: 3px 0px 2px 10px;
+  margin: 5px 0 0 0;
+  width: auto;
+}
+div.entry-content h3 {
+  font-size: 120%;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 0.1%;
+}
+div.entry-content h4 {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0.6em 10% 0 0.4em;
+  border-left: 5px solid #5279E7;
+  border-bottom: 1px solid #5279E7;
+  padding: 0px 0.5em 0.1em 0.5em;
+}
+div.entry-content h5 {
+  font-size: 100%;
+  margin: 0.5em 0 0 0.7em;
+}
+div.entry-content table {
+  margin: 10px;
+}
+div.entry-content table tr th {
+  padding: 3px;
+  background: #EEE;
+  border-bottom: 1px solid gray;
+}
+div.entry-content table tr td {
+  padding: 3px;
+  border-bottom: 1px dashed gray;
+}
+div.entry-content blockquote {
+  color: #333333;
+  background-color: #ffffff;
+  border: #5279e7 1px solid;
+  margin: 1% 2%;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+div.entry-content blockquote p {
+  margin-left: 0em;
+  text-indent: 0em;
+}
+div.entry-content pre {
+  background-color: #e7ebff;
+  padding: 8px;
+}
+div.entry-content .hatena-asin-detail li {
+  line-height: 1.4;
+}
+/**
+ * 以下はboilerplateのコード
+ */
+#blog-description {
+  font-weight: normal;
+  font-size: 80%;
+  margin: 5px 0 0 0;
+}
+/* ヘッダ画像を設定したとき */
+.header-image-enable #title {
+  padding-top: 70px;
+}
+.header-image-enable #title,
+.header-image-enable #blog-description {
+  padding-left: 20px;
+}
+/* パンくず（カテゴリーページで表示されます） */
+#top-box {
+  margin: 10px auto 20px;
+  font-size: 90%;
+}
+#top-box .breadcrumb {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+/* Footer */
+#footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #999;
+  line-height: 1.5;
+  font-size: 80%;
+}
+#footer p {
+  margin: 0;
+}
+#footer a {
+  color: #999;
+}
+/* About ページ */
+body.page-about dt {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 5px;
+}
+body.page-about dd {
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+/* archive ページ */
+body.page-archive #main section {
+  margin-bottom: 20px;
+}
+body.page-archive #main h1 {
+  font-size: 100%;
+  margin-bottom: 0;
+}
+body.page-archive #main ul {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+body.page-archive .categories a {
+  color: #fff;
+  font-size: 70%;
+  background: #aaa;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 2px;
+}
