@@ -268,6 +268,48 @@ div.entry-content pre {
 div.entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
+/* archive ページ */
+body.page-archive div#main div#main-inner {
+  border-top: #5279e7 24px solid;
+  border-right: #5279e7 1px solid;
+  border-bottom: #5279e7 1px solid;
+  border-left: #5279e7 1px solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+body.page-archive div#main div#main-inner section {
+  line-height: 1.5;
+}
+body.page-archive div#main div#main-inner section h1 {
+  font-size: 90%;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 40px;
+  display: list-item;
+}
+body.page-archive div#main div#main-inner section h1 a {
+  text-decoration: underline;
+}
+body.page-archive div#main div#main-inner section ul {
+  font-size: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: circle;
+  margin-left: 40px;
+}
+body.page-archive div#main div#main-inner section ul li span.categories a:before {
+  content: "[";
+}
+body.page-archive div#main div#main-inner section ul li span.categories a:after {
+  content: "]";
+}
+body.page-archive div#main div.pager {
+  font-size: 90%;
+  margin: 1% 5% 0 0;
+  padding: 1% 0 0 0;
+  text-align: left;
+}
 /**
  * 以下はboilerplateのコード
  */
@@ -317,29 +359,4 @@ body.page-about dt {
 body.page-about dd {
   margin-left: 0;
   margin-bottom: 30px;
-}
-/* archive ページ */
-body.page-archive #main section {
-  margin-bottom: 20px;
-}
-body.page-archive #main h1 {
-  font-size: 100%;
-  margin-bottom: 0;
-}
-body.page-archive #main ul {
-  list-style: none;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-body.page-archive .categories a {
-  color: #fff;
-  font-size: 70%;
-  background: #aaa;
-  padding: 3px 5px;
-  border-radius: 3px;
-  text-decoration: none;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  margin-right: 2px;
 }

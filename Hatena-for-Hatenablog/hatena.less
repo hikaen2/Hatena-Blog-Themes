@@ -324,6 +324,57 @@ div.entry-content {
   }
 }
 
+/* archive ページ */
+body.page-archive {
+  div#main {
+    div#main-inner {
+      border-top: #5279e7 24px solid;
+      border-right: #5279e7 1px solid;
+      border-bottom: #5279e7 1px solid;
+      border-left: #5279e7 1px solid;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      section {
+        line-height: 1.5;
+        h1 {
+          font-size: 90%;
+          font-weight: normal;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 40px;
+          display: list-item;
+          a {
+            text-decoration: underline;
+          }
+        }
+        ul {
+          font-size: 90%;
+          margin-top: 0;
+          margin-bottom: 0;
+          list-style-type: circle;
+          margin-left: 40px;
+          li {
+            span.categories {
+              a:before {
+                content: "[";
+              }
+              a:after {
+                content: "]";
+              }
+            }
+          }
+        }
+      }
+    }
+    div.pager {
+      font-size: 90%;
+      margin: 1% 5% 0 0;
+      padding: 1% 0 0 0;
+      text-align: left;
+    }
+  }
+}
+
 /**
  * 以下はboilerplateのコード
  */
@@ -381,35 +432,5 @@ body.page-about {
   dd {
     margin-left: 0;
     margin-bottom: 30px;
-  }
-}
-
-/* archive ページ */
-body.page-archive {
-  #main {
-    section {
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 100%;
-      margin-bottom: 0;
-    }
-    ul {
-      list-style: none;
-      margin: 0 0 0 0;
-      padding: 0 0 0 0;
-    }
-  }
-  .categories a {
-    color: #fff;
-    font-size: 70%;
-    background: #aaa;
-    padding: 3px 5px;
-    border-radius: 3px;
-    text-decoration: none;
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    margin-right: 2px;
   }
 }
