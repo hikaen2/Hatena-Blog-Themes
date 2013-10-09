@@ -160,7 +160,10 @@ body div#container div#container-inner div#content div#content-inner aside#box2 
   display: block;
   text-align: left;
 }
-body div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile div.hatena-module-body .profile-description p {
+body div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile div.hatena-module-body div.profile-description {
+  text-align: left;
+}
+body div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile div.hatena-module-body div.profile-description p {
   margin-top: 0;
 }
 /* entry-content の中の書式 */
