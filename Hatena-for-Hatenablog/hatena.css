@@ -8,11 +8,6 @@
  * Copyright (c) 2013 Hatena Co., Ltd
  * Licensed under the MIT license.
  */
-html,
-body {
-  color: black;
-  background-color: #ffffff;
-}
 h1 a,
 h2 a,
 h3 a,
@@ -48,6 +43,10 @@ body div#container div#container-inner div#content div#content-inner aside#box2 
   margin-left: 5%;
 }
 /* メインのレイアウト */
+body {
+  color: black;
+  background-color: #ffffff;
+}
 body div#globalheader-container {
   background-color: #5e7cb4;
   color: #ffffff;
@@ -87,7 +86,8 @@ body div#container div#container-inner div#content div#content-inner div#wrapper
   border-left: 9px solid #5279E7;
   padding-left: 0.5em;
   margin-bottom: 0;
-  font-size: 120%;
+  font-size: 108%;
+  line-height: 1.5;
   margin-left: 10px;
   margin-top: 2%;
 }
