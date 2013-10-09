@@ -177,6 +177,9 @@ div.entry-content p {
 div.entry-content img {
   max-width: 100%;
 }
+div.entry-content img.hatena-fotolife {
+  border: 1px solid #606060;
+}
 div.entry-content h1,
 div.entry-content h2,
 div.entry-content h3,
