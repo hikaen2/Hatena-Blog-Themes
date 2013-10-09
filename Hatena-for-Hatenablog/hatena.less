@@ -195,19 +195,6 @@ body {
           aside#box2 {
             font-size: 80%;
             div#box2-inner {
-              div.hatena-module-profile {
-                .profile-icon {
-                  display: block;
-                }
-                .id {
-                  display: block;
-                }
-                .profile-description {
-                  p {
-                    margin-top: 0;
-                  }
-                }
-              }
               div.hatena-module {
                 div.hatena-module-title {
                   margin: 1em 0 0.3em 0;
@@ -223,6 +210,22 @@ body {
                     list-style: none;
                     margin: 0 0 0 0;
                     padding: 0 0 0 0;
+                  }
+                }
+              }
+              div.hatena-module-profile {
+                div.hatena-module-body {
+                  text-align: center;
+                  a {
+                  }
+                  span.id {
+                    display: block;
+                    text-align: left;
+                  }
+                  .profile-description {
+                    p {
+                      margin-top: 0;
+                    }
                   }
                 }
               }
@@ -395,7 +398,7 @@ body.page-archive {
 #blog-description {
   font-weight: normal;
   font-size: 80%;
-  margin: 5px 0 0 0;
+  margin: 5px 0 0 5%;
 }
 
 /* ヘッダ画像を設定したとき */
