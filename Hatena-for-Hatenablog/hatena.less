@@ -39,13 +39,38 @@ a.keyword {
   border-bottom: 1px solid #d0d0d0;
 }
 
+/* カラム */
+body {
+  div#container {
+    margin-left: 5%;
+    margin-right: 5%;
+    div#container-inner {
+      div#content {
+        .clearfix;
+        div#content-inner {
+          div#wrapper {
+            float: right;
+            width: 100%;
+            margin-left: -150px;
+            div#main {
+              margin-left: 165px;
+            }
+          }
+          aside#box2 {
+            float: right;
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
 div#globalheader-container {
   background-color: #5e7cb4;
   color: #ffffff;
 }
 div#container {
-  margin-left: 5%;
-  margin-right: 5%;
   div#container-inner {
     header#blog-title {
       div#blog-title-inner {
@@ -63,14 +88,9 @@ div#container {
       }
     }
     div#content {
-      .clearfix;
       div#content-inner {
         div#wrapper {
-          float: right;
-          width: 100%;
-          margin-left: -150px;
           div#main {
-            margin-left: 165px;
             div#main-inner {
               article.hentry {
                 margin-bottom: 100px;
@@ -179,8 +199,6 @@ div#container {
           }
         }
         aside#box2 {
-          float: right;
-          width: 150px;
           font-size: 80%;
           div#box2-inner {
             div.hatena-module-profile {

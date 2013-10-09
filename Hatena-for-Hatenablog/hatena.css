@@ -38,13 +38,38 @@ a.keyword {
   text-decoration: none;
   border-bottom: 1px solid #d0d0d0;
 }
+/* カラム */
+body div#container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+body div#container div#container-inner div#content {
+  display: block;
+  *zoom: 1;
+}
+body div#container div#container-inner div#content:after {
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body div#container div#container-inner div#content div#content-inner div#wrapper {
+  float: right;
+  width: 100%;
+  margin-left: -150px;
+}
+body div#container div#container-inner div#content div#content-inner div#wrapper div#main {
+  margin-left: 165px;
+}
+body div#container div#container-inner div#content div#content-inner aside#box2 {
+  float: right;
+  width: 150px;
+}
 div#globalheader-container {
   background-color: #5e7cb4;
   color: #ffffff;
-}
-div#container {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 div#container div#container-inner header#blog-title div#blog-title-inner h1#title {
   text-align: left;
@@ -54,26 +79,6 @@ div#container div#container-inner header#blog-title div#blog-title-inner h1#titl
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 4px 4px 4px 4px;
-}
-div#container div#container-inner div#content {
-  display: block;
-  *zoom: 1;
-}
-div#container div#container-inner div#content:after {
-  display: block;
-  visibility: hidden;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  content: ".";
-}
-div#container div#container-inner div#content div#content-inner div#wrapper {
-  float: right;
-  width: 100%;
-  margin-left: -150px;
-}
-div#container div#container-inner div#content div#content-inner div#wrapper div#main {
-  margin-left: 165px;
 }
 div#container div#container-inner div#content div#content-inner div#wrapper div#main div#main-inner article.hentry {
   margin-bottom: 100px;
@@ -149,8 +154,6 @@ div#container div#container-inner div#content div#content-inner div#wrapper div#
   text-align: left;
 }
 div#container div#container-inner div#content div#content-inner aside#box2 {
-  float: right;
-  width: 150px;
   font-size: 80%;
 }
 div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile .profile-icon {
