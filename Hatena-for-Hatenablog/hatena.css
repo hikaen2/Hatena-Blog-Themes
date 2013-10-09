@@ -8,18 +8,6 @@
  * Copyright (c) 2013 Hatena Co., Ltd
  * Licensed under the MIT license.
  */
-.clearfix {
-  display: block;
-  *zoom: 1;
-}
-.clearfix:after {
-  display: block;
-  visibility: hidden;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  content: ".";
-}
 html,
 body {
   color: black;
