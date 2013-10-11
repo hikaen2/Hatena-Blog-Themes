@@ -21,6 +21,11 @@ a.keyword {
   text-decoration: none;
   border-bottom: 1px solid #d0d0d0;
 }
+/* フォント */
+html,
+body {
+  font-family: sans-serif;
+}
 /* 2カラムレイアウト */
 body div#container div#container-inner div#content div#content-inner {
   position: relative;
