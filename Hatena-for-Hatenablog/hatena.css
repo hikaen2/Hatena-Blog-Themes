@@ -21,12 +21,10 @@ a.keyword {
   text-decoration: none;
   border-bottom: 1px solid #d0d0d0;
 }
-/* フォント */
 html,
 body {
   font-family: sans-serif;
 }
-/* 2カラムレイアウト */
 body div#container div#container-inner div#content div#content-inner {
   position: relative;
   width: 100%;
@@ -47,7 +45,6 @@ body div#container div#container-inner div#content div#content-inner aside#box2 
   width: 150px;
   margin-left: 5%;
 }
-/* メインのレイアウト */
 body {
   color: black;
   background-color: #ffffff;
@@ -171,7 +168,6 @@ body div#container div#container-inner div#content div#content-inner aside#box2 
 body div#container div#container-inner div#content div#content-inner aside#box2 div#box2-inner div.hatena-module-profile div.hatena-module-body div.profile-description p {
   margin-top: 0;
 }
-/* entry-content の中の書式 */
 div.entry-content {
   font-size: 90%;
   line-height: 1.5;
@@ -266,7 +262,6 @@ div.entry-content pre {
 div.entry-content .hatena-asin-detail li {
   line-height: 1.4;
 }
-/* archive ページ */
 body.page-archive div#main div#main-inner {
   border-top: #5279e7 24px solid;
   border-right: #5279e7 1px solid;
@@ -308,15 +303,11 @@ body.page-archive div#main div.pager {
   padding: 1% 0 0 0;
   text-align: left;
 }
-/**
- * 以下はboilerplateのコード
- */
 #blog-description {
   font-weight: normal;
   font-size: 80%;
   margin: 5px 0 0 5%;
 }
-/* ヘッダ画像を設定したとき */
 .header-image-enable #title {
   padding-top: 70px;
 }
@@ -324,7 +315,6 @@ body.page-archive div#main div.pager {
 .header-image-enable #blog-description {
   padding-left: 20px;
 }
-/* パンくず（カテゴリーページで表示されます） */
 #top-box {
   margin: 10px auto 20px;
   font-size: 90%;
@@ -333,7 +323,6 @@ body.page-archive div#main div.pager {
   border: 1px solid #ddd;
   padding: 10px;
 }
-/* Footer */
 #footer {
   padding: 30px 0;
   text-align: center;
@@ -347,7 +336,6 @@ body.page-archive div#main div.pager {
 #footer a {
   color: #999;
 }
-/* About ページ */
 body.page-about dt {
   font-size: 16px;
   font-weight: bold;
